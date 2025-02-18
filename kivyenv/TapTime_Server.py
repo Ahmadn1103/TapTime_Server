@@ -2,7 +2,7 @@ from flask import Flask, request, jsonify
 import requests
 from datetime import datetime
 
-app = Flask ('TapTime')
+app = Flask(__name__)
 
 GOOGLE_SHEETS_URL = "https://script.google.com/macros/s/AKfycbyPKl3rK-TvfqVMVqnQFtkXf9FFHTqIZRIo92nnIHxFOI9Jt7eBe283uY2BV67_50Hl/exec"
 
